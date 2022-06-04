@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
     'register.apps.RegisterConfig',
-     'django_quill',
+    'django_quill',
 ]
 
 MIDDLEWARE = [
