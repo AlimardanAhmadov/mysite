@@ -1,0 +1,28 @@
+
+  
+  
+  #form-container {
+      margin:0px;
+      padding:0px;
+  }
+   
+  .change-link {
+    background-color: #000;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    bottom: 0;
+    color: #fff;
+    opacity: 0.8;
+    padding: 4px;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+  }
+  .change-link:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #editor-container {
+    height: 150px;
+  }

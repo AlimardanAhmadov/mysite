@@ -1,0 +1,11 @@
+
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name="name">
+    <input type="text" name="sku">
+    <input type="number" required name="price" min="0" value="0" step=".01">
+    <input type="number" required name="sale_price" min="0" value="0" step=".01">
+    <input type="text" name="images">
+    <input type="text" name="color_options">
+    <button type="submit" name="newProduct" value="newProduct">Add Product</button>
+</form>
